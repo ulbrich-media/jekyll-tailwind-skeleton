@@ -1,5 +1,9 @@
 # jekyll-tailwind-skeleton
-This repository serves as a template for your next Jekyll project. 
+This repository serves as a template for your next Jekyll project. It's based on: 
+- Docker
+- Jekyll
+- Webpack 
+- TailwindCSS 
 
 ## First installation 
 
@@ -10,6 +14,8 @@ yarn install
 That's all. 
 
 ## Commands 
+
+Make sure Docker is running! 
 
 ### Start dev environment
 Starting the docker container may take some take. Once it's done loading the page is available on [http://localhost:3000](http://localhost:3000).  
