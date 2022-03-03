@@ -1,0 +1,17 @@
+title: jekyll tailwind skeleton
+email:
+description:
+
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://example.com" # the base hostname & protocol for your site, e.g. https://example.com
+
+source: source
+destination: site
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - .gitignore
+  - vendor

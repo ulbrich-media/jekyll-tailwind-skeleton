@@ -1,0 +1,11 @@
+#!/bin/bash
+##
+
+export JEKYLL_VERSION=4.1.0
+
+webpack --mode production
+
+docker run --rm \
+  --volume="$PWD:/srv/jekyll" \
+  -it jekyll/builder:$JEKYLL_VERSION \
+  jekyll build

@@ -1,0 +1,40 @@
+{
+  "name": "jekyll-tailwind-skeleton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ulbrich-media/jekyll-tailwind-skeleton.git",
+  "author": {
+    "email": "marcel@ulbrich.media",
+    "name": "Marcel Ulbrich",
+    "url": "https://github.com/ulbrich-media"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "webpack --mode development",
+    "build-dev": "./.scripts/develop",
+    "build": "./.scripts/build",
+    "watch": "./.scripts/watch"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "autoprefixer": "^10.2.5",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.27.4",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "child_process": "^1.0.2",
+    "css-loader": "^5.1.3",
+    "css-minimizer-webpack-plugin": "^1.3.0",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^1.3.9",
+    "postcss": "^8.2.8",
+    "postcss-cli": "^8.3.1",
+    "postcss-loader": "^5.2.0",
+    "swiper": "^6.5.4",
+    "tailwindcss": "^2.0.4",
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0"
+  }
+}

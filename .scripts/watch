@@ -1,0 +1,14 @@
+#!/bin/bash
+##
+
+export JEKYLL_VERSION=4.1.0
+
+docker run --rm \
+  --volume="$PWD:/srv/jekyll" \
+  --publish "[::1]:4000:4000" \
+  -p 4000:4000 \
+  -i \
+  jekyll/jekyll:$JEKYLL_VERSION \
+  jekyll serve --watch --force_polling &
+
+webpack --watch --mode development
