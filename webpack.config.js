@@ -1,7 +1,6 @@
 const glob = require('glob');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 
 module.exports =  (env, argv) => {
     const isProduction = argv.mode === 'production';
