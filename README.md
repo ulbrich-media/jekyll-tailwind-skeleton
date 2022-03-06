@@ -18,7 +18,7 @@ That's all.
 Make sure Docker is running! 
 
 ### Start dev environment
-Starting the docker container may take some take. Once it's done loading the page is available on [http://localhost:3000](http://localhost:3000).  
+Starting the docker container may take some take. Once it's done loading the page is available on [http://0.0.0.0:4000](http://0.0.0.0:4000).  
 ```
 yarn watch
 ```
